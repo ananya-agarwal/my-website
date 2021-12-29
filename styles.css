@@ -1,0 +1,47 @@
+body{
+    padding:20px;
+    background:linear-gradient(to right, #7cd4eb,rgb(220, 240, 151),#FC8E94,rgb(235, 113, 133));
+}
+.content{
+    border-radius: 10px;
+    background:white;
+    padding: 40px;
+}
+
+.navigation{
+    padding: 20px;
+    display:flex;
+    width: 82.5vw;
+    background-color: cadetblue;
+}
+.c_right{
+    background-color: burlywood;
+    margin-right: 0;
+}
+
+ul{
+    list-style-type: none;
+    display:flex;
+    flex-wrap:nowrap;
+}
+
+.about{
+    display:flex;
+    flex-wrap: nowrap;
+    padding-right: 20px;
+    padding-bottom: 30px;
+}
+.subAbout{
+    padding-left: 20px;
+}
+
+.info{
+display:flex;
+flex-wrap: nowrap;
+/* for displaying like a flex and that too side by side */
+}
+
+.career, .skills, .contact{
+    width: 50%;
+}
+
