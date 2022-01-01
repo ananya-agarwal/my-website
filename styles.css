@@ -1,11 +1,11 @@
 body{
-    padding:20px;
+    padding:55px;
     background:linear-gradient(to right, #7cd4eb,rgb(220, 240, 151),#FC8E94,rgb(235, 113, 133));
 }
 .content{
     border-radius: 10px;
     background:white;
-    padding: 40px;
+    padding: 60px;
 }
 
 .navigation{
@@ -19,7 +19,7 @@ body{
     margin-right: 0;
 }
 
-ul{
+.navigation ul{
     list-style-type: none;
     display:flex;
     flex-wrap:nowrap;
@@ -32,7 +32,25 @@ ul{
     padding-bottom: 30px;
 }
 .subAbout{
+    padding-left: 70px;
+    font-size: larger;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.skills ul{
+    list-style-type: none;
+    display:flex;
+    flex-wrap:nowrap;
+}
+
+.skills li{
+    background:mistyrose;
+    margin: 7.5px;
     padding-left: 20px;
+    padding-right: 20px;
+    padding: 5px;
+    border-radius: 5px;
+    border:black;
 }
 
 .info{
@@ -43,5 +61,9 @@ flex-wrap: nowrap;
 
 .career, .skills, .contact{
     width: 50%;
+}
+
+.contact{
+    text-align:center;
 }
 
