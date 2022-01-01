@@ -1,69 +1,86 @@
-body{
-    padding:55px;
-    background:linear-gradient(to right, #7cd4eb,rgb(220, 240, 151),#FC8E94,rgb(235, 113, 133));
-}
-.content{
-    border-radius: 10px;
-    background:white;
+body {
     padding: 60px;
+    background: linear-gradient(to right, #7cd4eb, rgb(220, 240, 151), #FC8E94, rgb(235, 113, 133));
 }
 
-.navigation{
-    padding: 20px;
-    display:flex;
-    width: 82.5vw;
-    background-color: cadetblue;
+.content {
+    border-radius: 20px;
+    background: white;
+    padding: 75px;
 }
-.c_right{
-    background-color: burlywood;
+
+.navigation {
+    padding-bottom: 20px;
+    display: flex;
+    width: auto;
+}
+
+.c_left {
+    padding-top: 15px;
+    font-size: 25px;
+    font-weight: bolder;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.c_right {
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin-right: 0;
+    margin-left: auto;
 }
 
-.navigation ul{
+.navigation ul {
     list-style-type: none;
-    display:flex;
-    flex-wrap:nowrap;
+    display: flex;
+    flex-wrap: nowrap;
 }
 
-.about{
-    display:flex;
+.navigation li {
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.about {
+    display: flex;
     flex-wrap: nowrap;
     padding-right: 20px;
     padding-bottom: 30px;
 }
-.subAbout{
+
+.subAbout {
     padding-left: 70px;
     font-size: larger;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.skills ul{
+.info {
+    display: flex;
+    flex-wrap: wrap;
+    /* for displaying like a flex and that too side by side */
+}
+
+.skills ul {
     list-style-type: none;
-    display:flex;
-    flex-wrap:nowrap;
+    display: flex;
+    flex-wrap: wrap;
 }
 
-.skills li{
-    background:mistyrose;
+.skills li {
+    background: mistyrose;
     margin: 7.5px;
     padding-left: 20px;
     padding-right: 20px;
     padding: 5px;
     border-radius: 5px;
-    border:black;
+    border: black;
 }
 
-.info{
-display:flex;
-flex-wrap: nowrap;
-/* for displaying like a flex and that too side by side */
-}
 
-.career, .skills, .contact{
+
+.career, .skills, .contact {
     width: 50%;
 }
 
-.contact{
-    text-align:center;
+.contact {
+    text-align: center;
 }
-
