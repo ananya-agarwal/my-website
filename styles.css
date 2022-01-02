@@ -76,11 +76,6 @@ body {
 }
 
 
-
 .career, .skills, .contact {
     width: 50%;
-}
-
-.contact {
-    text-align: center;
 }
