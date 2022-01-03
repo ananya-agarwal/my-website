@@ -30,7 +30,7 @@ body {
     margin-right: 0;
     margin-left: auto;
 }
-a{
+.c_right a{
     color:rgb(226, 103, 123);
     text-decoration: none;
 }
@@ -96,4 +96,10 @@ font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans 
 
 .career h1{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.contact a{
+    color:navy;
+    text-decoration: none;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
